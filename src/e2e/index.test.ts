@@ -1,6 +1,6 @@
 import request from 'supertest';
 import { type Express } from 'express';
-import { createApp } from '../createApp';
+import { createApp } from '../server';
 
 describe('/api/users', () => {
   let app: Express;

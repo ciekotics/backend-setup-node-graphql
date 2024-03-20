@@ -1,12 +1,12 @@
-import { createApp } from './createApp';
+import server from './server';
 
-const app = createApp();
+// const app = server();
 const PORT = 3000;
 
 // app.get("/api/users", (req: Request, res: Response, next: NextFunction) => {
 //     res.send([])
 // })
 
-app.listen(PORT, () => {
+server.listen(PORT, () => {
     console.log(`Running on Port ${PORT}`)
 })
