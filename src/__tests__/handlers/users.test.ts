@@ -1,5 +1,5 @@
 import { mockRequest, mockResponse } from "../../__mocks__"
-import { getUsers } from "../../controllers/users"
+import { getUsers } from "../../controllers/Users.controllers"
 
 
 describe('getUsers', () => {
